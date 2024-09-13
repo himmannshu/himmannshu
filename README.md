@@ -1,10 +1,2 @@
-- 👋 Hi, I’m @himmannshu
-- 👀 I’m interested in exploring new ideas.
-- 🌱 
-- 💞️ 
-- 📫 
-
-<!---
-himmannshu/himmannshu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👋 Hello, I am Himanshu pursuing a Master of Science in Computer at the University of Arkansas. I have 3 years of experience as a Software Engineer at Dematic where I developed the Warehouse Control System.  
+- 👀 I am reading J's <b>Deep Learning for Coders with Fastai and Pytorch written by Howard and S. Gugger </b>
