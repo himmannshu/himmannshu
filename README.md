@@ -1,12 +1,32 @@
-👋 Hi there! I’m Himanshu—a programmer, anime enthusiast, and a self-proclaimed decent Indian chef (seriously, my curries are worth a spoon 🍴).
+# Hi, I'm Himanshu Sharma
 
-💻 By day, I’m a master’s student in Computer Science diving into AR, AI & ML in Financial Analytics, Advanced Database Systems, and Full Stack Deep Learning. By night, I’m tinkering away on projects, debugging (sometimes cursing), and occasionally finding those elusive “Aha!” moments.
+I'm a Software Engineer and MS Computer Science student at the University of Arkansas, focused on building production-grade full-stack, data, and AI-enabled systems.
 
-🌟 Here’s what you’ll find on my GitHub:
+Previously, I worked at Dematic on Warehouse Control Systems, where I built and deployed Angular, NestJS, .NET, SQL Server, and IBM MQ-based applications for high-throughput distribution environments. I have experience with customer-facing delivery, requirements gathering, commissioning, UAT, go-live support, and cross-functional coordination with controls, operations, and product teams.
 
-🧠 Machine learning projects that might just make studying a bit more fun.
-🛠️ Cool tools for tackling data and optimization challenges.
-💡 Random experiments fueled by curiosity and caffeine.
-🎾 When I’m not coding, I’m probably chasing tennis balls, exploring the world of deep learning one chapter at a time, or trying to flip a perfect dosa without making a mess.
+Currently, I am building projects around:
+- Agentic AI systems and retrieval-augmented generation
+- Full-stack applications with React/Angular, Node/NestJS, Python, and Docker
+- Data pipelines, analytics dashboards, and automation workflows
+- Computer vision and super-resolution benchmarking
 
-🔗 Let’s connect, collaborate, and maybe even build something awesome together!
+## Featured Projects
+
+### Financial Research Agent
+Multi-agent financial analysis platform that routes user queries to market-data and research agents, retrieves structured financial context, and generates explainable investment research reports.
+
+### Real-Time Tennis Swing Telemetry
+Computer vision pipeline using OpenCV and MediaPipe to estimate tennis swing kinematics from monocular video.
+
+### Upcoming
+- AI document intelligence platform for extracting structured data from PDFs
+- Warehouse control system simulator with event-driven WMS/WCS/PLC workflows
+- Super-resolution benchmarking dashboard for controlled imaging datasets
+
+## Tech Stack
+
+TypeScript, JavaScript, Python, C#, SQL  
+Angular, React, NestJS, Node.js, .NET, FastAPI  
+SQL Server, PostgreSQL, Power BI, pandas, NumPy, PyTorch  
+Docker, REST APIs, gRPC, WebSockets, IBM MQ  
+LLMs, RAG, LangGraph, vector databases, agent workflows
