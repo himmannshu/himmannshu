@@ -1,32 +1,37 @@
 # Hi, I'm Himanshu Sharma
 
-I'm a Software Engineer and MS Computer Science student at the University of Arkansas, focused on building production-grade full-stack, data, and AI-enabled systems.
+Software Engineer focused on production systems: full-stack applications, distributed systems, and applied AI. 
 
-Previously, I worked at Dematic on Warehouse Control Systems, where I built and deployed Angular, NestJS, .NET, SQL Server, and IBM MQ-based applications for high-throughput distribution environments. I have experience with customer-facing delivery, requirements gathering, commissioning, UAT, go-live support, and cross-functional coordination with controls, operations, and product teams.
+[Portfolio](https://www.paperandlatency.com/) • [LinkedIn](https://linkedin.com/in/himanshu00) • vghimanshu2@gmail.com
 
-Currently, I am building projects around:
-- Agentic AI systems and retrieval-augmented generation
-- Full-stack applications with React/Angular, Node/NestJS, Python, and Docker
-- Data pipelines, analytics dashboards, and automation workflows
-- Computer vision and super-resolution benchmarking
+## Background
+
+At Dematic, I built and deployed Warehouse Control System software (Angular, NestJS, .NET, SQL Server, IBM MQ) for high-throughput distribution centers, covering requirements gathering, commissioning, UAT, and go-live support on live operations.
+
+I'm now spending most of my time on applied AI systems: agent architectures, retrieval-augmented generation, and the evaluation and guardrail work that makes them reliable enough to trust with a real answer.
 
 ## Featured Projects
 
-### Financial Research Agent
-Multi-agent financial analysis platform that routes user queries to market-data and research agents, retrieves structured financial context, and generates explainable investment research reports.
+### [Boston Query Compiler](https://github.com/himmannshu/Boston-Query-Compiler)
+A query-planning system over 1M+ rows of Boston open city data (311 requests, crash records, building permits). Instead of answering from retrieved text, an LLM planner classifies each question and routes it to SQL, retrieval, or a cross-dataset join, so counts and aggregates come from a deterministic query engine rather than a language model doing arithmetic in its head.
 
-### Real-Time Tennis Swing Telemetry
-Computer vision pipeline using OpenCV and MediaPipe to estimate tennis swing kinematics from monocular video.
+Benchmarked against two RAG baselines on the same 37 questions: 86.7% answer accuracy versus 20% for both baselines, with a numeric-fidelity guard that catches any figure not present in the underlying evidence.
 
-### Upcoming
-- AI document intelligence platform for extracting structured data from PDFs
-- Warehouse control system simulator with event-driven WMS/WCS/PLC workflows
-- Super-resolution benchmarking dashboard for controlled imaging datasets
+`Python` `DuckDB` `LLM planning` `hybrid retrieval`
+
+### [Financial Research Agent](https://github.com/himmannshu/stock-market-agents)
+A multi-agent system that generates equity research reports. A planner agent scopes the analysis, a data agent pulls structured financials, a search agent gathers market context, and a writer agent synthesizes everything into a report that a verifier agent checks for inconsistencies before it reaches the user.
+
+`Python` `Streamlit` `multi-agent orchestration`
 
 ## Tech Stack
 
-TypeScript, JavaScript, Python, C#, SQL  
-Angular, React, NestJS, Node.js, .NET, FastAPI  
-SQL Server, PostgreSQL, Power BI, pandas, NumPy, PyTorch  
-Docker, REST APIs, gRPC, WebSockets, IBM MQ  
-LLMs, RAG, LangGraph, vector databases, agent workflows
+**Languages:** TypeScript, JavaScript, Python, C#, SQL
+**Frontend / Backend:** React, Angular, NestJS, Node.js, .NET, FastAPI
+**Data:** PostgreSQL, SQL Server, DuckDB, pandas, NumPy, Power BI
+**AI / ML:** PyTorch, LLM agents, RAG, LangGraph, vector search
+**Infra:** Docker, REST, gRPC, WebSockets, IBM MQ
+
+---
+
+Open to Software Engineer, Full-Stack, and Applied AI roles. Feel free to reach out.
