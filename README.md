@@ -12,6 +12,13 @@ I'm now spending most of my time on applied AI systems: agent architectures, ret
 
 ## Featured Projects
 
+### [Book Reader](https://github.com/himmannshu/book-reader)
+A Kindle-style reader for PDF books that I use every day on my Mac, iPad and iPhone. It's an installable web app that opens PDFs natively, stays smooth in 600-page books by drawing only the pages near the view, and keeps highlights, notes, bookmarks and voice notes on the device first, with a private Cloudflare copy that syncs them between devices. It also reads books aloud, sentence by sentence.
+
+Built by AI coding agents (Claude Code and Codex) working in turns under a harness of phase plans, contracts that define "done", cross-agent reviews and automated speed budgets that fail the build on a regression. About 12k lines of app code and 13k lines of tests across 25 phases.
+
+`TypeScript` `React` `PDF.js` `IndexedDB` `Cloudflare Pages, D1, R2` `Playwright`
+
 ### [Boston Query Compiler](https://github.com/himmannshu/Boston-Query-Compiler)
 A query-planning system over 1M+ rows of Boston open city data (311 requests, crash records, building permits). Instead of answering from retrieved text, an LLM planner classifies each question and routes it to SQL, retrieval, or a cross-dataset join, so counts and aggregates come from a deterministic query engine rather than a language model doing arithmetic in its head.
 
@@ -30,7 +37,7 @@ A multi-agent system that generates equity research reports. A planner agent sco
 **Frontend / Backend:** React, Angular, NestJS, Node.js, .NET, FastAPI
 **Data:** PostgreSQL, SQL Server, DuckDB, pandas, NumPy, Power BI
 **AI / ML:** PyTorch, LLM agents, RAG, LangGraph, vector search
-**Infra:** Docker, REST, gRPC, WebSockets, IBM MQ
+**Infra:** Docker, REST, gRPC, WebSockets, IBM MQ, Cloudflare (Pages, Workers, D1, R2)
 
 ---
 
